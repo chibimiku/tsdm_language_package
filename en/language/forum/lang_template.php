@@ -1107,6 +1107,15 @@ $lang = array (
 
 	'warn_view_log'		=> '$warnuser Warning Log',
 	'warn_view_prompt'	=> '$warnuser was warned $warnnum times. If you were warned {$_G[setting][warninglimit]} times in {$_G[setting][warningexpiration]} days﹐ you would be banned to post {$_G[setting][warningexpiration]} days (R/O mode)',
+	'yuusya_viewthread_btn' => 'mark as AD poster',
+	'topicadmin_show_adv_opt' => 'show topicadmin',
+	'topicadmin_hide_adv_opt' => 'hide topicadmin',
+	'from_tsdmapp_android' => 'from tsdm app android',
+	'plugin_mikusearch' => 'MikuMikuSearch', 
+	'download_anime' => 'anime DL',
+	'lastchange_time' => 'last pwd change',
+	'common_report' => 'app bugs/issue',
+	'enter_new_tag' => 'tag it',
 );
 
 ?>
