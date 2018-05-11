@@ -15,70 +15,70 @@ $lang = array
 	'DEL'	=> 'Delete',
 	'DLP'	=> 'Delete reply',
 	'DCM'	=> 'Delete comment',
-	'PRN'	=> 'Bulk post remove',
+	'PRN'	=> 'Bulk post removal',
 	'UDL'	=> 'Undelete',
 
-	'DIG'	=> 'Digg',
-	'UDG'	=> 'Bury',
-	'EDI'	=> 'Limit digg',
-	'UED'	=> 'Unlimit digg',
+	'DIG'	=> 'Mark as Excellent Post',
+	'UDG'	=> 'Unmark as Excellent Post',
+	'EDI'	=> 'Mark as limited-time Excellent Post',
+	'UED'	=> 'Unmark as limited-time Excellent Post',
 
 	'CLS'	=> 'Close',
 	'OPN'	=> 'Open',
-	'ECL'	=> 'Limit Close',
-	'UEC'	=> 'Unlimit close',
-	'EOP'	=> 'Limit open',
-	'UEO'	=> 'Unlimit open',
+	'ECL'	=> 'Limited-time close',
+	'UEC'	=> 'Remove limited-time close',
+	'EOP'	=> 'Limited-time open',
+	'UEO'	=> 'Remove limited-time open',
 
-	'STK'	=> 'Stick',
-	'UST'	=> 'Unstick',
-	'EST'	=> 'Stick Time Limited',
-	'UES'	=> 'UnStick Time Limited',
+	'STK'	=> 'Sticky',
+	'UST'	=> 'Unsticky',
+	'EST'	=> 'Limited-time sticky',
+	'UES'	=> 'Remove limited-time sticky',
 
 	'SPL'	=> 'Split',
 	'MRG'	=> 'Merge',
 
 	'HLT'	=> 'Highlight',
 	'UHL'	=> 'Unhighlight',
-	'EHL'	=> 'Limit Highlight',
-	'UEH'	=> 'Unlimit Highlight',
+	'EHL'	=> 'Limited-time highlight',
+	'UEH'	=> 'Remove limited-time highlight',
 
 	'BMP'	=> 'Bump',
-	'DWN'	=> 'Down',
+	'DWN'	=> 'Sink',
 
 	'MOV'	=> 'Move',
 	'CPY'	=> 'Copy',
-	'TYP'	=> 'Type',
+	'TYP'	=> 'Categorize',
 
 	'RFD'	=> 'Refund',
 
-	'MOD'	=> 'Moderate',
+	'MOD'	=> 'Approve',
 
 	'ABL'	=> 'Add BLOG',
-	'RBL'	=> 'Remove BLLOG',
+	'RBL'	=> 'Remove BLOG',
 
 	'PTS'	=> 'Push to stack',
 	'RFS'	=> 'Restore from stack',
-	'RMR'	=> 'Remove reward',
-	'BNP'	=> 'Ban post',
-	'UBN'	=> 'Unban post',
+	'RMR'	=> 'Remove bounty',
+	'BNP'	=> 'Hide post',
+	'UBN'	=> 'Unhide post',
 
-	'REC'	=> 'Recommend',
-	'URE'	=> 'Unrecommend',
+	'REC'	=> 'Mark as Recommended',
+	'URE'	=> 'Unmark as Recommended',
 
 	'WRN'	=> 'Warn',
-	'UWN'	=> 'Unwarn',
+	'UWN'	=> 'Remove warning',
 
 
-	'SPA' => 'add Stamp',
-	'SPD' => 'move Stamp',
+	'SPA' => 'Add stamp',
+	'SPD' => 'Remove stamp',
 
-	'SLA' => 'add icon',
-	'SLD' => 'move icon',
+	'SLA' => 'Add icon',
+	'SLD' => 'Remove icon',
 
 	'REG' => 'Group recommended',
 
-	'PTA' => 'Generate Articlel',
+	'PTA' => 'Generate Article',
 
 	'MAG'	=> 'Magic',
 
