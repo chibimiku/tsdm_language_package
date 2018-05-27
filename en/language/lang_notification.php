@@ -26,7 +26,7 @@ $lang = array
 	'type_task' => 'Task',
 	'type_group' => 'Group',
 
-	'mail_to_user' => 'A new notice',
+	'mail_to_user' => 'New notification',
 	'showcredit' => '{actor} Gift to you {credit} A bid Credits﹐To help improve your <a href="misc.php?mod=ranklist&type=member" target="_blank">Auction list</a> In the ranking',
 	'share_space' => '{actor} Share your space',
 	'share_blog' => '{actor} Share your blog <a href="{url}" target="_blank">{subject}</a>',
@@ -35,8 +35,8 @@ $lang = array
 	'share_thread' => '{actor} Share your thread <a href="{url}" target="_blank">{subject}</a>',
 	'share_article' => '{actor} Share your article <a href="{url}" target="_blank">{subject}</a>',
 	'magic_present_note' => 'Props to give you a <a href="{url}" target="_blank">{name}</a>',
-	'friend_add' => '{actor} And you become a friend',
-	'friend_request' => '{actor} Add your friend request to{note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">Approve the application</a>',
+	'friend_add' => '{actor} and you are now friends',
+	'friend_request' => '{actor} would like add you as friend. Notes:{note}&nbsp;&nbsp;<a onclick="showWindow(this.id, this.href, \'get\', 0);" class="xw1" id="afr_{uid}" href="{url}">Approve this friend request</a>',
 	'doing_reply' => '{actor} Replied to your <a href="{url}" target="_blank">Record</a>',
 	'wall_reply' => '{actor} Replied to your <a href="{url}" target="_blank">Message</a>',
 	'pic_comment_reply' => '{actor} Replied to your <a href="{url}" target="_blank">Picture Comments</a>',
@@ -70,9 +70,9 @@ $lang = array
 
 	'reason_ban_post' => 'Your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> Was {actor} {modaction} <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'reason_warn_post' => 'Your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> Was {actor} {modaction}<br />
-Continuous {warningexpiration} the cumulative days {warninglimit} Warnings﹐You will be automatically banned speech {warningexpiration} days。<br />
-As of now﹐You have been warned {authorwarnings} time﹐Note！<div class="quote"><blockquote>{reason}</blockquote></div>',
+	'reason_warn_post' => 'Your post in <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> was {modaction} by {actor}.<br />
+If you are warned {warninglimit} times in {warningexpiration} days, you will be automatically banned from posting for {warningexpiration} days.<br />
+Please note that you have been warned {authorwarnings} times as of now.<div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'reason_move' => 'Your thread <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> Was {actor} move to <a href="forum.php?mod=forumdisplay&fid={tofid}" target="_blank">{toname}</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
@@ -100,13 +100,13 @@ As of now﹐You have been warned {authorwarnings} time﹐Note！<div class="quot
 
 	'modreplies_validate' => 'Your reply has been reviewed by the published！ &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">view &rsaquo;</a> <p class="summary">Replies content：<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
 
-	'transfer' => 'You received a from the {actor} Transfer of Credits {credit} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">view &rsaquo;</a>
-<p class="summary">{actor} Say：<span>{transfermessage}</span></p>',
+	'transfer' => 'You received a transfer of {credit} credits from {actor}. &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">View &rsaquo;</a>
+<p class="summary">{actor} says：<span>{transfermessage}</span></p>',
 
 	'addfunds' => 'Your request has been submitted to complete the recharge Credits﹐Corresponding amount of points have been deposited into your Credits account &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">view &rsaquo;</a>
 <p class="summary">Order No.：<span>{orderid}</span></p><p class="summary">Expenditure：<span>RMB {price} </span></p><p class="summary">Income：<span>{value}</span></p>',
 
-	'rate_reason' => 'You in the thread <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> The post is {actor} Score {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div>',
+	'rate_reason' => 'Your post in the thread <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> has been rated {ratescore} by {actor}. Reason: <div class="quote"><blockquote>{reason}</blockquote></div>',
 
 	'rate_removereason' => 'You in the thread <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank">{subject}</a> The score in the post {ratescore} <div class="quote"><blockquote>{reason}</blockquote></div> Was {actor} Revocation',
 
@@ -144,9 +144,9 @@ As of now﹐You have been warned {authorwarnings} time﹐Note！<div class="quot
 
 	'comment_add' => '{actor} Comments have been the subject of your <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> Posts by &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">view &rsaquo;</a>',
 
-	'reppost_noticeauthor' => '{actor} Reply to your post <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">view</a>',
+	'reppost_noticeauthor' => '{actor} replied to your post in <a href="forum.php?mod=redirect&goto=findpost&ptid={tid}&pid={pid}" target="_blank">{subject}</a> &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">View</a>',
 
-	'task_reward_credit' => 'Congratulations on completing the task：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>﹐Earn credits {creditbonus} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">View My Points &rsaquo;</a></p>',
+	'task_reward_credit' => 'Congratulations on completing the task: <a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>. You have earned {creditbonus} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">View my points &rsaquo;</a></p>',
 
 	'task_reward_magic' => 'Congratulations on completing the task：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>﹐Get magics <a href="home.php?mod=magic&action=mybox" target="_blank">{rewardtext}</a> {bonus} Zhang',
 
@@ -158,7 +158,7 @@ As of now﹐You have been warned {authorwarnings} time﹐Note！<div class="quot
 
 	'task_reward_group' => 'Congratulations on completing the task：<a href="home.php?mod=task&do=view&id={taskid}" target="_blank">{name}</a>﹐Get user group {rewardtext} Period {bonus} days &nbsp; <a href="home.php?mod=spacecp&ac=usergroup" target="_blank" class="lit">See what I can do &rsaquo;</a>',
 
-	'user_usergroup' => 'Upgrade your user group {usergroup} &nbsp; <a href="home.php?mod=spacecp&ac=usergroup" target="_blank" class="lit">See what I can do &rsaquo;</a>',
+	'user_usergroup' => 'Your user group is now {usergroup}. &nbsp; <a href="home.php?mod=spacecp&ac=usergroup" target="_blank" class="lit">See what I can do &rsaquo;</a>',
 
 	'grouplevel_update' => 'Congratulations﹐Your group {groupname} Has been upgraded to {newlevel}。',
 
@@ -193,9 +193,9 @@ As of now﹐You have been warned {authorwarnings} time﹐Note！<div class="quot
 	'manage_verify_field' => 'Pending a new{verifyname}。<a href="admin.php?action=verify&operation=verify&do={doid}">Now processing</a>',
 	'system_notice' => '{subject}<p class="summary">{message}</p>',
 	'system_adv_expiration' => 'The following ad will be your site {day} Days after the expiration﹐Please deal with：<br />{advs}',
-	'report_change_credits' => '{actor} Handled your complaint {creditchange} {msg}',
-	'new_report' => 'There are new reports of pending﹐<a href="admin.php?action=report" target="_blank">Click here to enter the background processing</a>。',
-	'new_post_report' => 'There are new reports of pending﹐<a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">Click here to enter the administration panel</a>。',
+	'report_change_credits' => '{actor} handled your report. {creditchange} {msg}',
+	'new_report' => 'There are new reports. <a href="admin.php?action=report" target="_blank">Click here to enter control panel</a>.',
+	'new_post_report' => 'There are new reports. <a href="forum.php?mod=modcp&action=report&fid={fid}" target="_blank">Click here to enter control panel</a>.',
 	'magics_receive' => 'You receive {actor} Give you props {magicname}
 <p class="summary">{actor} Say：<span>{msg}</span></p>
 <p class="mbn"><a href="home.php?mod=magic" target="_blank">Rebate props</a><span class="pipe">|</span><a href="home.php?mod=magic&action=mybox" target="_blank">View my magic box</a></p>',
