@@ -1034,7 +1034,7 @@ $lang = array (
   'warn_get' => 'Warned',
   'pay_comment' => 'You should pay <strong>{$_G[setting][extcredits][$_G[setting][creditstransextra][1]][title]} {$thread[price]} {$_G[setting][extcredits][$_G[setting][creditstransextra][1]][unit]}</strong> to view the thread',
   'pay_free_time' => 'After $thread[endtime] this thread will be free',
-  'people_bug' => ' people bought',
+  'people_bug' => ' people bought this',
   'poll_count_down' => 'Count down',
   'poll_end' => 'Poll is finished',
   'poll_hour' => 'Hours',
@@ -1074,9 +1074,9 @@ $lang = array (
   'topicadmin_hide_adv_opt' => 'hide topicadmin',
   'from_tsdmapp_android' => 'from TSDM Android App',
   'plugin_mikusearch' => 'MikuMikuSearch', 
-  'download_anime' => 'anime DL',
+  'download_anime' => 'Anime Downloads',
   'lastchange_time' => 'last pwd change',
-  'common_report' => 'app bugs/issue',
+  'common_report' => 'Report App Bugs',
   'enter_new_tag' => 'tag it',
 );
 ?>

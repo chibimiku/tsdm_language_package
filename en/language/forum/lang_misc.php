@@ -132,8 +132,8 @@ $lang = array
 
 	'formulaperm_regdate'		=> 'Registration date',
 	'formulaperm_regday'		=> 'Days after register',
-	'formulaperm_regip'		=> 'Reg IP',
-	'formulaperm_lastip'		=> 'Last IP',
+	'formulaperm_regip'		=> 'Registration IP',
+	'formulaperm_lastip'		=> 'Last login IP',
 	'formulaperm_buyercredit'	=> 'Buyer rate',
 	'formulaperm_sellercredit'	=> 'Seller rate',
 	'formulaperm_digestposts'	=> 'Digests',
